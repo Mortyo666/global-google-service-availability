@@ -1,0 +1,92 @@
+{
+  "check_interval_minutes": 15,
+  "timeout_seconds": 10,
+  "retry_attempts": 3,
+  "request_delay_seconds": 2,
+  "user_agents": [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"
+  ],
+  "services": {
+    "Google Search": {
+      "description": "Main Google search engine",
+      "endpoints": [
+        "https://www.google.com",
+        "https://www.google.com/search?q=test"
+      ]
+    },
+    "Gmail": {
+      "description": "Google email service",
+      "endpoints": [
+        "https://mail.google.com"
+      ]
+    },
+    "Google Drive": {
+      "description": "Google cloud storage",
+      "endpoints": [
+        "https://drive.google.com"
+      ]
+    },
+    "Google Maps": {
+      "description": "Google mapping service",
+      "endpoints": [
+        "https://maps.google.com",
+        "https://www.google.com/maps"
+      ]
+    },
+    "YouTube": {
+      "description": "Google video platform",
+      "endpoints": [
+        "https://www.youtube.com"
+      ]
+    },
+    "Google Cloud Platform": {
+      "description": "Google cloud infrastructure",
+      "endpoints": [
+        "https://cloud.google.com",
+        "https://console.cloud.google.com"
+      ]
+    },
+    "Google AI Studio": {
+      "description": "Google AI/ML platform",
+      "endpoints": [
+        "https://makersuite.google.com",
+        "https://aistudio.google.com"
+      ]
+    },
+    "Vertex AI": {
+      "description": "Google enterprise AI platform",
+      "endpoints": [
+        "https://cloud.google.com/vertex-ai"
+      ]
+    },
+    "Google Colab": {
+      "description": "Google collaborative notebook platform",
+      "endpoints": [
+        "https://colab.research.google.com"
+      ]
+    },
+    "Google Translate": {
+      "description": "Google translation service",
+      "endpoints": [
+        "https://translate.google.com"
+      ]
+    },
+    "Firebase": {
+      "description": "Google app development platform",
+      "endpoints": [
+        "https://firebase.google.com",
+        "https://console.firebase.google.com"
+      ]
+    },
+    "Google Analytics": {
+      "description": "Google analytics platform",
+      "endpoints": [
+        "https://analytics.google.com"
+      ]
+    }
+  }
+}
